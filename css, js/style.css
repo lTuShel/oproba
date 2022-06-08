@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background: linear-gradient(to top, #DCDCDC, #FFF5EE );
+    
+}
+/* header начало */
+header {
+    padding-top: 5px; 
+}
+
+button {
+     border:none;
+    background: none;
+}
+.verx {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+.inf {
+    text-align-last: justify;
+    margin-top: 5px;
+}
+
+.inf a {
+    color: #000000;
+    font: bold 16px/15px technic;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 1px black;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.izgoi {
+    height: 55px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+* { box-sizing: border-box; 
+}
+
+.Tinf {
+    text-align-last: justify;
+    margin-top: 3px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.Tinf a {
+    font: bold 16px/15px technic;
+    text-decoration:none;
+    color: #000000;
+}
+ 
+ul { 
+    font: bold 16px/15px technic;
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+  -webkit-box-shadow: #EED5D2;
+  -moz-box-shadow: #EED5D2;
+  box-shadow: #EED5D2;
+}
+
+ul li {
+    border: solid 1px #EECBAD;
+    border-radius: 10px;
+  font: bold 16px/15px technic;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 15px;
+  background: #EECBAD;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+ul li:hover {
+  background: #EED5D2;
+  color: #000000;
+}
+
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 40px;
+    margin-top: 7px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+
+ul li ul li { 
+
+    margin-top: 3px;
+    background: #EECBAD; 
+    display: block; 
+    color: #EED5D2;
+}
+
+ul li ul li:hover { 
+    background: #EED5D2; 
+}
+
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* header конец */
+/* main начало*/
+ main {
+    padding-top: 5px; 
+    
+}
+.prie {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.prie2 {
+    max-width: 65px;
+    max-height: 65px;
+}
+
+.priee {
+    font: bold 18px/16px technic;
+}
+
+.pcar {
+    font: bold 18px/16px technic;
+}
+.nov {
+    border: solid 1px black;
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    ;
+}
+
+.td {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.nov p {
+    font: bold 18px/16px technic;
+    text-align: center;
+}
+
+.mainn {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 1000px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+.cart {
+    margin-top: -10px;
+    border-radius: 10px;
+    border: solid 2px black;
+    height: 600px;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cartdiv {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center
+}
+
+/* main конец*/
+/* foother начало */
+.niz { 
+    margin-top: 5px; /*отступ от main */
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 80px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.niz a {
+    color: #000000;
+    font: bold 18px/16px technic;
+    margin: 30px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.niz nav {
+    text-align: center;
+    margin-top: 26px;
+}
+/* foother конец */
